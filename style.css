@@ -1,0 +1,12 @@
+h1{
+    color: blue;
+}
+img{
+    position: absolute;
+    width: 50px;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    cursor: none;
+}
+body{
+}
