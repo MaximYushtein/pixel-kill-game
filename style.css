@@ -1,5 +1,7 @@
-h1{
+h1,h2{
     color: blue;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
 }
 img{
     position: absolute;
@@ -9,4 +11,10 @@ img{
     cursor: none;
 }
 body{
+   background-image:url(bg.png) ;
+   overflow: hidden;
+   cursor: none;
+}
+.enemy{
+transform:translate(-50%,50%) scaleX(-1);
 }
